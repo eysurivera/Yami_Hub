@@ -1,2 +1,188 @@
-Hello IRCITE2024
-<img src="logo.png" height="350px"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8; 
+            color: #333; 
+            transition: background-color 0.3s ease;
+        }
+
+        header {
+            background-color: rgb(145, 144, 144); /* Red header background */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            transition: background-color 0.3s ease;
+            position: relative;
+            height: 90px; 
+        }
+
+        header img {
+            width: 80px;
+            height: auto;
+            margin-bottom: 10px; }
+
+        .navbar {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #fff;
+            margin-right: 20px;
+            transition: color 0.3s ease;
+            font-size: 30px;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+
+        .navbar a:hover {
+            color: #d32f2f; 
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .team-images {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .team-images img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 2px solid red;
+            margin: 0 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .team-images img:hover {
+            transform: scale(1.1);
+        }
+
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+        }
+
+        .team-member {
+            width: 200px;
+            margin: 20px;
+            text-align: center;
+            border: 1px solid #ccc; 
+            padding: 20px;
+            background-color: #fff; 
+            color: #333; 
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            max-width: 350px       }
+
+        .team-member:hover {
+            background-color: #f2f2f2; 
+            transform: translateY(-5px); 
+        }
+
+        .team-member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            border: 2px solid red;
+        }
+
+        footer {
+            position: absolute;
+            background-color: #333; 
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            bottom: 0px;
+            transition: background-color 0.3s ease;
+        }
+
+        footer:hover {
+            background-color: #555; 
+        }
+        .nya{
+            border-radius: 50%;
+            border: 2px solid red;
+            height: 100px;
+            position: absolute;
+            width: 100px;
+            left: 100px;
+            top: 10px;
+            
+        
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img class="nya" src="images/teamnya.jpg" alt="Logo">
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+</header>
+<main>
+    <div class="team-images">
+        <img src="images/ace.jpg" alt="Ace">
+        <img src="images/neil.jpg" alt="Member 2">
+        <img src="images/alex.jpg" alt="Member 3">
+        <img src="images/jaybee.jpg" alt="Member 4">
+        <img src="images/johnpaul.jpg" alt="Member 5">
+    </div>
+    <div class="team-members">
+        <div class="team-member">
+            <img src="images/ace.jpg" alt="Member 1">
+            <h2>Alexander Ace Rivera</h2>
+            <p>Position: Leader/Developer</p>
+            <p>Email: acerivera52@gmail.com</p>
+        </div>
+        <div class="team-member">
+            <img src="images/neil.jpg" alt="Member 2">
+            <h2>Neil mar Marcelo</h2>
+            <p>Position: Designer</p>
+            <p>Email: neilmarmarcelo001@gmail</p>
+        </div>
+        <div class="team-member">
+            <img src="images/alex.jpg" alt="Member 3">
+            <h2>Alex Dela Cruz</h2>
+            <p>Position: Project Manager</p>
+            <p>Email: Delacruzalex57@gmail.com</p>
+        </div>
+        <div class="team-member">
+            <img src="images/jaybee.jpg" alt="Member 4">
+            <h2>Jaybee Metucua</h2>
+            <p>Position: Marketing Specialist</p>
+            <p>Email: jaybeedelrosario31@gmail</p>
+        </div>
+        <div class="team-member">
+            <img src="images/johnpaul.jpg" alt="Member 5">
+            <h2>John Paul Marqueses</h2>
+            <p>Position: UX/UI Designer</p>
+            <p>Email: johnmarqueses3@gmail.com</p>
+        </div>
+    </div>
+</main>
+<footer>
+    <p>&copy; 2024 Team Nyaaa. All rights reserved.</p>
+</footer>
+</body>
+</html>
